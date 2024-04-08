@@ -37,7 +37,7 @@ class AzureSpeechRecognizer:
         # Setup the audio configuration to use the default microphone
         self.audio_config: speechsdk.audio.AudioConfig = speechsdk.audio.AudioConfig(use_default_microphone=True)
         
-        # Create the speech recognizer with the configured settings
+        # Create the speech recognizer with the configured setting
         self.speech_recognizer: speechsdk.SpeechRecognizer = self.create_speech_recognizer()
 
     def create_speech_recognizer(self) -> speechsdk.SpeechRecognizer:
