@@ -30,8 +30,8 @@ Before running the code, ensure that you have the following:
 1. Clone the repository:
 
 ```
-git clone https://github.com/Folusakin/voice-activated-ai-assistant.git
-cd voice-activated-ai-assistant
+git clone https://github.com/Folusakin/assistant.git
+cd assistant
 ```
 
 2. Install the required Python libraries:
